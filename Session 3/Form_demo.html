@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>
+        <!-- Tiêu đề của form - Tên form -->
+        <h3>Thêm thông tin sinh viên</h3>
+      </legend>
+      <!-- Cấu trúc của 1 form -->
+      <form>
+        <!-- Thân form - Chứa các label và input nhập liệu -->
+        <!-- 1. Nhóm các input nhập liệu (text)-->
+        <div>
+          <label for="fullname">Họ và tên:</label>
+          <input
+            type="text"
+            name=""
+            id="fullname"
+            placeholder="Nhập họ và tên"
+          />
+        </div>
+
+        <br />
+        <div>
+          <label for="phoneNumber">Số điện thoai: </label>
+          <input type="tel" id="phoneNumber" placeholder="Nhập số điện thoại" />
+        </div>
+
+        <br />
+        <div>
+          <label for="email">Email: </label>
+          <input type="email" id="email" placeholder="Nhập email" />
+        </div>
+
+        <br />
+        <div>
+          <label for="password">Mật khẩu: </label>
+          <input type="password" id="password" placeholder="Nhập mật khẩu" />
+        </div>
+
+        <!-- 2. Input cho phép chon 1 -->
+        <br />
+        <div>
+          <label for="gender">Giới tính</label>
+          <input checked type="radio" id="gender" name="gender" />Nam
+          <input type="radio" id="gender" name="gender" />Nữ
+          <input type="radio" id="gender" name="gender" />Khác
+        </div>
+
+        <!-- 3. Input cho phép chọn nhiều -->
+        <br />
+        <div>
+          <label for="hobbie">Sở thích</label>
+          <input type="checkbox" />Nhảy dây <input type="checkbox" />Bơi lội
+          <input type="checkbox" />Bic ca bôn
+        </div>
+
+        <!-- 4. Input cho phép chọn dữ liệu có sẵn -->
+        <br />
+        <div>
+          <label for="dateOfBirth">Ngày sinh</label>
+          <input type="date" id="dateOfBirth" />
+        </div>
+
+        <!-- 5. Ipnut cho phép chọn dạng danh sách -->
+        <br />
+        <div>
+          <label for="">Tỉnh/Thành phố</label>
+          <select name="" id="">
+            <option value="">Hà Nội</option>
+            <option value="">Ninh Bình</option>
+            <option value="">Thanh Hóa</option>
+            <option value="">Nghệ An</option>
+            <option value="">Phú Thọ</option>
+          </select>
+        </div>
+
+        <!-- 6. Input yêu cầu người dùng có tương tác chuột -->
+        <br />
+        <div>
+          <label for="">Tiến độ học tập</label>
+          <input type="range" name="" id="" />
+        </div>
+
+        <div>
+          <label for="">Màu sắc yêu thíc</label>
+          <input type="color" name="" id="" />
+        </div>
+
+        <!-- Chân form - Chứa các nút hành động -->
+        <br />
+        <div>
+          <input type="button" value="Hủy" />
+          <input type="reset" value="Làm mới" />
+          <input type="submit" value="Thêm mới" />
+        </div>
+      </form>
+    </fieldset>
+  </body>
+</html>

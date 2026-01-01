@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./demo.css" />
+    <!-- Internal CSS: Trong file HTML, trong thẻ head, sử dụng cặp thẻ style để định nghĩa các thuộc tính cho thẻ -->
+    <style>
+      * {
+        /* Apply dành cho tất cả các thẻ có trong trang web. Hay dùng để reset CSS*/
+        font-family: sans-serif;
+      }
+      h1 {
+        background-color: blue;
+      }
+      #heading-1 {
+        color: white;
+        text-decoration: underline;
+      }
+      .heading-2 {
+        color: brown;
+      }
+
+      .front-thin {
+        font-weight: 100;
+      }
+      .front-size {
+        font-size: 24px;
+      }
+
+      .heading-3 {
+        color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Inline CSS : Trong thẻ mở của 1 thẻ HTML, sử dụng thuộc tính style để style cho các thẻ -->
+    <h1 style="color: white; font-size: 50px">Welcome to Rikkei Education</h1>
+
+    <h1 id="heading-1">Đây là thẻ tiêu đề h1</h1>
+
+    <h2 class="heading-2 front-thin front-size">Đây là tiêu đề 2</h2>
+
+    <h3 class="front-size">Đây là tiêu đề 3</h3>
+
+    <div class="box">Box</div>
+
+    <h3 class="heading-3">Demo về độ ưu tiên trong CSS</h3>
+
+    <button class="button">Click me</button>
+  </body>
+</html>

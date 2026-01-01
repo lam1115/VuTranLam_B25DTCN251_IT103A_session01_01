@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: rgb(2,132,199);
+    text-align: center;
+    color: white;
+}
+.title {
+    text-transform: uppercase;
+}
+.slogan {
+
+}
+.main {
+}
+.heading {
+    font-size: 24px;
+    color: #0369a1;
+}
+
+.texe-strong {
+    color: #1faded;
+}
+ul{
+    list-style: none;
+}
+.list-service{
+
+}
+.note{
+    color: #ba2f38;
+}
+.link{
+    color: #1d68e2;
+    font-weight: 600;
+}
+.footer{
+    background-color: #0284c7;
+    text-align: center;
+    color: white;
+    line-height: 100px;
+}

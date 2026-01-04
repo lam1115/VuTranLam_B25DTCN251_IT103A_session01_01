@@ -1,0 +1,19 @@
+.body{
+    font-family: sans-serif;
+    text-align: center;
+}
+.box{
+    background-color: #f4f4f9;
+}
+.title{
+    color: #2163ff;
+}
+.subtitle{
+    color: #5c8ffd;
+}
+.list{
+    color: #4fafff;
+}
+.first{
+    color: #ff4f45;
+}

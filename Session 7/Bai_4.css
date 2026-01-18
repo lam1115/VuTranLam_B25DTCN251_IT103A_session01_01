@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f8f6;
+}
+
+.box {
+    border: 1px solid #ccc;
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.content {
+    text-align: center;
+}
+
+.option {
+    color: #42d7ff;
+    text-align: center;
+}

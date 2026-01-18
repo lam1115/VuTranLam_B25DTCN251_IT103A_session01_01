@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.banner {
+    border: 1px solid black;
+    width: 522px;
+    position: static;
+    margin: auto;
+    height: 600px;
+}
+.title {
+    color: #ff6600;
+}
+.image {
+    display: inline-block;
+}
+.name {
+    padding: 20px 10px;
+}
+.bold {
+    color: #5fff83;
+    font-size: 24px;
+    padding: 30px 10px ;
+}
+.profile {
+    padding: 20px 10px;
+    font-size: 20px;
+}

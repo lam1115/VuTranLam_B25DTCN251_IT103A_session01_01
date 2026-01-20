@@ -1,0 +1,44 @@
+
+body {
+    color: red;
+}
+
+/* 0 - 480px: Smaller smartphone */
+@media screen and (max-width: 480px) {
+    body{
+        background-color: blue;
+    }
+    .heading-1{
+        color: aqua;
+    }
+}    
+
+/* 481 - 768px: Tables and larger smartphone */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    body{
+        background-color: yellow;
+    }  
+    .heading-1{
+        color: brown;
+    }
+}    
+
+/* 769 - 1279px: Laptops, tables landscape, small desktops */
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    body{
+        background-color: aqua;
+    }
+    .heading-1{
+        color:black;
+    }
+}    
+
+/* 1280px: Large desktops & monitors*/
+@media screen and (min-width: 1280px){
+    body{
+        background-color: gray;
+    }
+    .heading-1{
+        color: white;
+    }
+}    

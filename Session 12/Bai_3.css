@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #F8F9FA;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.logo{
+    font-size: 12px;
+    font-weight: 700;
+    font-weight: bold;
+    color: #6366F1;
+    background-color: #6366F11A;
+    margin: 16px 16px;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+.title{
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 45px;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.slogan{
+    color: #212529BF;
+    font-weight: 300;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.main{
+    margin: 24px 0  ;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;  
+}
+.box{
+    width: 300px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    width: 420px;
+    transition: all 0.3 linear;
+}
+
+ul{
+    list-style: none;
+    margin: 24px;
+}
+
+li{
+    margin: 8px;
+}
+
+.name{
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 39px 40px 8px ;
+    text-align: center;
+}
+
+.sub{
+    color: #6366F1;
+    font-size: 40px;
+    font-weight: 700;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sub sub{
+    color: #999999 ;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+hr{
+    margin: 24px;
+}
+
+.button{
+    border: 1px solid #0D6EFD;
+    background-color: #ffffff;
+    color: #0D6EFD;
+    margin: 24px;
+    padding: 7px 147px;
+    border-radius: 6px;
+}
+
+.box:hover{
+    transform: scale(1.05);
+}
+
+.button:hover{
+    background-color: #0D6EFD;
+    color: #ffffff;
+}

@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.box{
+    display: inline-block;
+    height: 449.97px;
+    width: 4146x;
+    border: 1px solid #0000002D;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px #00000013;
+}
+
+.box-header{
+    background-color: #764BA2;
+    height: 200px;
+    width: 414px;
+    position: relative;
+}
+
+.logo{
+    padding: 55px 175px;
+    color: #ffffff;
+    font-size: 50px;
+}
+.status{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    top: 14px;
+    right: 15px;
+}
+
+.evalute {
+    display: flex;
+    justify-content: space-between;
+    margin: 11.1px 16px;
+}
+
+.name{
+    background: #6366F11A;
+    border-radius: 8px;
+    color: #6366F1;
+    padding: 4.2px 7.8px;
+    font-weight: 700;
+    font-size: 12px;
+
+}
+
+.eva-cost{
+    color: #212529;
+}
+
+.cost {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 16px;
+}
+hr{
+    margin: 0 16px;
+}
+
+.cost-number{
+    color: #6366F1;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button{
+    color: #ffffff;
+    background-color: #0D6EFD;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.title{
+    color: #212529;
+    font-size: 20px;
+    font-weight: 700;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.student{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 16px;
+}
+.infor p{
+    max-width: 382px;
+}
+
+

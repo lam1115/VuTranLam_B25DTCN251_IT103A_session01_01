@@ -1,0 +1,148 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f9fafb;
+  color: #1f2937;
+}
+
+/* ===== HEADER (MOBILE FIRST) ===== */
+.header {
+  background: #fff;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.logo {
+  height: 32px;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  text-align: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #374151;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.nav a.active {
+  background: #eef2ff;
+  color: #6366f1;
+  font-weight: 600;
+}
+
+/* USER */
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.user img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+/* ===== BANNER ===== */
+.banner {
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  color: #fff;
+  padding: 48px 16px;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 14px;
+  opacity: 0.9;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+/* ===== FILTER (MOBILE) ===== */
+.filter {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.filter-btn {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.filter-btn.active {
+  background: #6366f1;
+  color: #fff;
+  border-color: #6366f1;
+}
+
+/* ===== DESKTOP (>= 768px) ===== */
+@media (min-width: 768px) {
+
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 10%;
+  }
+
+  .nav {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .user {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .banner {
+    padding: 72px 10%;
+  }
+
+  .banner h1 {
+    font-size: 36px;
+  }
+
+  .banner p {
+    font-size: 16px;
+  }
+
+  .filter {
+    flex-direction: row;
+    padding: 24px 10%;
+    gap: 16px;
+  }
+
+  .filter-btn {
+    padding: 10px 16px;
+  }
+}

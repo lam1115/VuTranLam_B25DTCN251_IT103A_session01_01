@@ -1,0 +1,82 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f9fafb;
+  color: #1f2937;
+}
+
+/* ===== STATS ===== */
+.stats {
+  padding: 24px 16px;
+}
+
+.stats h2 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+/* MOBILE: xếp dọc */
+.stats-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* CARD */
+.stat-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+}
+
+.icon {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+.number {
+  font-size: 32px;
+  font-weight: 700;
+  color: #6366f1;
+  margin-bottom: 6px;
+}
+
+.stat-card p {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* ===== DESKTOP ===== */
+@media (min-width: 768px) {
+  .stats {
+    padding: 40px 10%;
+  }
+
+  .stats h2 {
+    font-size: 26px;
+    margin-bottom: 32px;
+  }
+
+  .stats-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+  }
+
+  .stat-card {
+    padding: 32px 16px;
+  }
+
+  .number {
+    font-size: 36px;
+  }
+}

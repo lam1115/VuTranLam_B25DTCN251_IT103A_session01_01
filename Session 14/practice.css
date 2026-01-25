@@ -1,0 +1,447 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.header{
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    height: 81.59px;
+    padding: 0 20%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-link{
+    display: flex;
+    gap: 32px;
+}
+
+.link{
+    text-decoration: none;
+    color: #1F2937;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+
+.button{    
+    background-color: #6366F1;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #6366F1;
+    margin: 0 4px;
+}
+
+.button:active{
+    background-color: #FFFFFF;
+    color: #6366F1;
+    border: 2px solid #6366F1;
+}
+
+.banner{
+    display: flex;
+    background-color: #6366F1;
+    justify-content: space-between;
+    color: #FFFFFF;
+    
+}
+
+h1{
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 48px;
+    margin: 142.79px 0 31px;
+}
+.infor {
+    max-width: 502.83px;
+    margin: 0 0 0 20%;
+}
+
+.infor p{
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 97.17px 37px 0;
+}
+
+.banner-button{
+    padding: 20px 34px ;
+    color: #FFFFFF;
+    background-color: #6366F1;
+    border: 0; 
+    margin: 0 0 140.79px;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.banner-button:active{
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+
+.stat{
+    margin: 64px 20% 0 0 ;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex: 1;
+}
+
+.stat-top{
+    width: 100%;
+}
+
+.stat-bottom{
+    display: flex;
+    gap: 24px;
+}
+
+.stat-box{
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    padding: 32px;
+    background-color: #FFFFFF;  
+    flex: 1;
+    text-align: center;
+    box-shadow: 0 4px 6px -1px #0000001A;
+}
+
+.stat-box.big{
+    width: 100%;
+}
+
+
+.stat1{
+    color: #6366F1;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 31.6px;
+    padding: 0 0 20.19px;
+}
+
+.stat2{
+    color: #6B7280;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+.icon{
+    padding: 32px 0 23px;
+}
+
+.why{
+    background-color: #F9FAFB;
+}
+
+h2{
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding: 64px 0 48px ;
+}
+
+.reason{
+    display: flex;
+    justify-content: space-between;
+    gap: 31px;
+    padding: 0 20%;
+}
+
+.reason-box{
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px #0000001A;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 48px 50px 84px;
+}
+
+.reason1{
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1F2937;
+}
+
+.reason2{
+    font-weight: 400;
+    font-size: 16px;
+    color: #6B7280;
+}
+
+.title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #6B7280;
+    padding: 0 0 48px;
+}
+
+.course-list{
+    margin: 0 20%;
+    display: flex;
+    gap: 21px;
+    flex-wrap: wrap;
+    width: calc(100% - 21px) /3;    
+}
+
+.list-box{
+    border: 1px solid #E5E7EB;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px -1px #0000001A;
+    width: 363.66px;
+    height: 600px;
+}
+
+.banner-course1{
+    width: 100%;
+    height: 200px;
+    background-image: url(./images/Logo-Laptrinh.png);
+    background-repeat: no-repeat;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    position: relative;
+}
+
+.banner-course2{
+    width: 100%;
+    height: 200px;
+    background-image: url(./images/Logo-Thietke.png);
+    background-repeat: no-repeat;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    position: relative;
+}
+
+.banner-course3{
+    width: 100%;
+    height: 200px;
+    background-image: url(./images/Logo-Mobile.png);
+    background-repeat: no-repeat;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.banner-course4{
+    width: 100%;
+    height: 200px;
+    background-image: url(./images/Logo-Marketing.png);
+    background-repeat: no-repeat;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.banner-course5{
+    width: 100%;
+    height: 200px;
+    background-image: url(./images/Logo-AI.png);
+    background-repeat: no-repeat;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    position: relative;
+}
+
+.banner-course6{
+    width: 100%;
+    height: 200px;
+    background-image: url(./images/Logo-Kinhdoanh.png);
+    background-repeat: no-repeat;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.badge{
+    position: absolute;
+    background-color: #6366F1;
+    border-radius: 8px;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    top: 16px;
+    right: 16px;
+    padding: 10px 12px;
+}
+
+.badge2{
+    position: absolute;
+    background-color: #EC4899;
+    border-radius: 8px;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    top: 16px;
+    right: 16px;
+    padding: 10px 12px;
+}
+
+.main-course{
+    position: relative;
+}
+.sub-button{
+    position: absolute;
+    top: 33px;
+    left: 33px;
+    border: 0;
+    border-radius: 6px;
+    background-color: #F9FAFB;
+    color: #6366F1;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 7px 12px;
+}
+
+.course-title{
+    position: absolute;
+    top: 81px;
+    left: 32px;
+    right: 39.88px;
+    font-family: 700;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.course-infor{
+    position: absolute;
+    left: 33px;
+    right: 36px;
+    top: 154.39px;
+    color: #6B7280;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.more{
+    font-weight: 400;
+    font-size: 13.9px;
+    position: absolute;
+    top: 223.39px;
+    left: 33px;
+    right: 33px;
+    display: flex;
+    gap: 23.8px;
+    padding-bottom: 23.39px ;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+
+
+.del{
+    position: absolute;
+    top: 269.79px;
+    left: 33px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6B7280;
+}
+
+.cost{
+    position: absolute;
+    left: 33px;
+    top: 300px;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 23.6px;
+    color:  #6366F1;
+}
+
+.register{
+    position: absolute;
+    top: 280px;
+    right: 33px;
+    background-color: #6366F1;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid #6366F1;
+    border-radius: 8px;
+    padding: 16px 22px;
+}
+
+.register:active{
+    background-color: rgba(99, 102, 241, 0.8);
+}
+
+.footer{
+    height: 413.77px;
+    background-color: #1F2937;
+    padding: 0 20%;    
+}
+
+.top-footer{
+    border-bottom: 1px solid #313b4a;
+    padding: 64px 0 ;
+    display: flex;
+    gap: 47px;
+}
+
+.footer-rikkei{
+    color: #9CA3AF;
+    font-family: 400;
+    font-size: 16px;
+    width: 400px;
+    margin: 28px 0;
+}
+
+.footer-nav{
+    display: flex;
+    gap: 24px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #9CA3AF;
+    font-family: 400;
+    font-size: 16px;
+}
+
+.course-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 200px;
+}
+
+.footer p{
+    color: #9CA3AF;
+}
+
+.footer .end{
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.bottom-footer{
+    color: #9CA3AF;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-top:24px;
+}
+
